@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click again</title>
+</head>
+<body>
+<h1>1 ticket added</h1>
+<h1><a id="clickad" href="http://sh.st/st/7933b65bb88c915480a020e12e11b7f4/free-i-phone.16mb.com/referagain.html">Click here again to make more tickets</a></h1>
+<script type="text/javascript">
+		
+		var heading=document.getElementById('clickad');
+
+		function makered()
+		{
+			heading.style.color='red';
+			setTimeout('makegreen()', 500);
+		}
+
+		function makegreen()
+		{
+			heading.style.color='green';
+			setTimeout('makered()', 200);
+		}
+
+		makered();
+
+	</script>
+</body>
+</html>
